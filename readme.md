@@ -1,3 +1,9 @@
+# Disclaimer
+
+This repository exists for the sole purpose to showcase a bug in mocha linked to glob patterns in mocharc files: https://github.com/mochajs/mocha/issues/4307
+
+---
+
 
 ### Prerequisites
 
