@@ -51,7 +51,7 @@ As a side I should add that these two following `spec` values give the results h
 
 -  `npm run test-legacy-working`: Check tests passes when using lecacy opts `test/mocha.opts`
 - `npm run test-bugged-baseline`: tests WONT BE FOUND when using `.mocharc.js`
-- `npm run test-bugged-baseline`: Dumps the BROKEN file patterns when using `.mocha.multi-paths.js`
+- `npm run test-bugged-showcase`: Dumps the BROKEN file patterns when using `.mocha.multi-paths.js`
 
 ---
 
