@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+.clocignore
+Thumbs.db
+Icon
+
+# IDEs and editors
+.idea
+.vscode
+
+# NPM
+**/node_modules/
+**/package-lock.json
+yarn.lock
+
+# Test artifacts
+**/.nyc_output/

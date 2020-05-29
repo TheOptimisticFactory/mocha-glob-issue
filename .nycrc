@@ -1,0 +1,35 @@
+{
+  "all": true,
+  "cache": true,
+
+  "check-coverage": true,
+  "per-file": true,
+  "report-dir": "./coverage",
+
+  "branches": [0, 95],
+  "functions": [0, 95],
+  "statements": [0, 95],
+  "lines": [0, 95],
+
+  "reporter": [
+    "html",
+    "text-summary"
+  ],
+
+  "include": [
+    "{controllers,core,cronJobs,helpers,linker,scripts,secrets,services}/**/*.js"
+  ],
+
+  "exclude": [
+    "{.nyc_output,config,coverage,docs,fixtures,mochawesome-report,node_modules,test}/**",
+    "packages/*/test/**",
+    "test/**",
+    "test{,-*}.js",
+    "**/*{.,-}test.js",
+    "**/__tests__/**",
+    "**/fixtures/**",
+    "**/node_modules/**",
+    "app.js",
+    "index.js"
+  ]
+}
